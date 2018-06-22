@@ -159,7 +159,7 @@ public class Team {
 
     public final int startersQB = 1;
     public final int startersRB = 2;
-    public final int startersWR = 3;
+    public final int startersWR = 2;
     public final int startersTE = 1;
     public final int startersOL = 5;
     public final int startersK = 1;
