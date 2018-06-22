@@ -159,7 +159,7 @@ public class PlayerRB extends Player {
         ratRushPower = (int) (ratBase + year * yearFactor + stars * starFactor - ratTolerance * Math.random());
         ratSpeed = (int) (ratBase + year * yearFactor + stars * starFactor - ratTolerance * Math.random());
         ratEvasion = (int) (ratBase + year * yearFactor + stars * starFactor - ratTolerance * Math.random());
-        ratCatch = (int) ((ratBase - 15) + year * yearFactor + stars * starFactor - ratTolerance * Math.random());
+        ratCatch = (int) ((ratBase - 10) + year * yearFactor + stars * starFactor - ratTolerance * Math.random());
         ratOvr = getOverall();
         region = (int) (Math.random() * 5);
         personality = (int) (attrBase + 50 * Math.random());
@@ -189,7 +189,7 @@ public class PlayerRB extends Player {
         ratRushPower = (int) (ratBase + stars * customFactor - ratTolerance * Math.random());
         ratSpeed = (int) (ratBase + stars * customFactor - ratTolerance * Math.random());
         ratEvasion = (int) (ratBase + stars * customFactor - ratTolerance * Math.random());
-        ratCatch = (int) ((ratBase - 15) + stars * customFactor - ratTolerance * Math.random());
+        ratCatch = (int) ((ratBase - 10) + stars * customFactor - ratTolerance * Math.random());
         ratOvr = getOverall();
         region = (int) (Math.random() * 5);
         personality = (int) (attrBase + 50 * Math.random());
